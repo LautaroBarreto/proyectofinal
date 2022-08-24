@@ -1,1 +1,15 @@
 @import 'variables';
+body{
+    color: $colorsecundario;
+    background-color: $colorterciario;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 1.5em;
+    text-align: center;
+    h1{
+        background-color: $colorprimario;
+    }
+    a{
+        color: $colorsecundario;
+    }
+    
+}

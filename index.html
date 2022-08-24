@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&family=Big+Shoulders+Inline+Display:wght@200&family=Poppins:wght@100&family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <title>Proyecto Final - Lautaro Barreto</title>
 </head>
 <body>
@@ -28,6 +29,10 @@
                 Cada uno es un tema completo con subtemas que deberás explorar si tu objetivo es escribir mejores canciones. <br>
 
                 Entraré en más detalle en cada uno más adelante en el artículo, pero si necesitas empezar desde cero, aquí hay guías introductorias acerca de cada concepto.
+                <br>
+                <br>
+                Antes de empezar debo aclarar que las alteraciones <strong>"SOSTENIDO"</strong>  se veran representadas con el simbolo <strong>"#"</strong>. <br>
+                Y las alteraciones <strong>"BEMOLES</strong> se veran representadas con la letra <strong>"b"</strong> minuscula.
             </p>
         </header>
         <main>
@@ -37,8 +42,8 @@
                 <select name="" id="verEscalas">
                     <option value="ordenBemoles" id="ordenBemoles">Orden de Bemoles</option>
                     <option value="ordenSostenidos" id="ordenSostenidos">Orden de Sostenidos</option>
-                    <option value="escalaMaySos" id="escalasMaySos">Escalas Mayores con Sostenidos</option>
-                    <option value="escalasMayBem" id="escalasMayBem">Escalas Mayores con Bemoles</option>
+                    <option value="escalasMayConSos" id="escalasMaySos">Escalas Mayores con Sostenidos</option>
+                    <option value="escalasMayConBem" id="escalasMayBem">Escalas Mayores con Bemoles</option>
                     <option value="escalasMenNatConSos" id="escalasMenNatSos">Escalas Menores Natureales con Sostenidos</option>
                     <option value="escalasMenNatConBem" id="escalasMenNatBem">Escalas Menores Naturales Con Bemoles</option>
                 </select>
@@ -48,12 +53,15 @@
             <div class="info" id="listaMuestra">
                 <ul id="resultado"></ul>
             </div>
+
+            <div>
+                <p>Ponte a <a href="/pages/prueba.html">PRUEBA</a></p>
+            </div>
         </main>
         <footer>
 
         </footer>
     </div>
-    <script src="/Js/arraysbarreto.js"></script>
     <script src="/Js/domEventosBarretoLautaro.js"></script>
 </body>
 </html>

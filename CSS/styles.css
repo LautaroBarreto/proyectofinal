@@ -1,0 +1,10 @@
+body {
+  color: #fff;
+  background-color: #000;
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 1.5em;
+  text-align: center; }
+  body h1 {
+    background-color: #041167; }
+  body a {
+    color: #fff; }
