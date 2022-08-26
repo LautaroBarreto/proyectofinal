@@ -5,6 +5,17 @@ body {
   font-size: 1.5em;
   text-align: center; }
   body h1 {
-    background-color: #041167; }
+    margin: 1.5em;
+    background-color: #046B92; }
   body a {
     color: #fff; }
+  body #verEscalas {
+    color: #fff;
+    background-color: #02686f; }
+  body #resultado {
+    color: #fff;
+    background-color: #02686f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
