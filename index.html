@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Implementacion de libreria SWEET ALERT-->
+
+    <script src="sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css">
+
     <link rel="stylesheet" href="./CSS/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&family=Big+Shoulders+Inline+Display:wght@200&family=Poppins:wght@100&family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <title>Proyecto Final - Lautaro Barreto</title>
@@ -14,7 +20,7 @@
             <h1 class="title">
                 Welcome to ChordsLand
             </h1>
-            <div class="title">
+            <div>
                 <h2 class="subtitle">
                     Un breve repaso por la teoria musical.
                 </h2>
@@ -32,7 +38,7 @@
                 <br>
                 <br>
                 Antes de empezar debo aclarar que las alteraciones <strong>"SOSTENIDO"</strong>  se veran representadas con el simbolo <strong>"#"</strong>. <br>
-                Y las alteraciones <strong>"BEMOLES</strong> se veran representadas con la letra <strong>"b"</strong> minuscula.
+                Y las alteraciones <strong>"BEMOLES"</strong> se veran representadas con la letra <strong>"b"</strong> minuscula.
             </p>
         </header>
         <main>
@@ -53,12 +59,11 @@
             <div class="info" id="listaMuestra">
                 <ul id="resultado" class="resultado"></ul>
             </div>
-
-            <div>
-                <p>Ponte a <a href="/pages/prueba.html">PRUEBA</a></p>
+            <div >
+                <p>Ponte a <a id="pagina-prueba" href="/pages/prueba.html">PRUEBA</a>
             </div>
         </main>
-        <section class="footer" >
+        <section class="footer bordertop" >
             <footer>
                 <h4>
                     By: <a href="https://www.instagram.com/miyagi_sr" target="_blank">Lautaro Barreto</a>
@@ -67,5 +72,7 @@
         </section>
     </div>
     <script src="/Js/domEventosBarretoLautaro.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/Js/librerias.js"></script>
 </body>
 </html>

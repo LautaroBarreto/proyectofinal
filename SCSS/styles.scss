@@ -5,11 +5,35 @@ body{
     font-family: 'Big Shoulders Display', cursive;
     font-size: 1.5em;
     text-align: center;
-    h1{
-        background-color: $colorprimario;
+    margin: 0%;
+
+
+    .bodygrilla{
+        margin: 5px;
+        h1{
+            background-color: $colorCuatro;
+        }
+        .subtitle{
+            margin: 1.5em;
+        }
+        a{
+            color: $colorsecundario;
+        }
+        #verEscalas{
+            color: $colorsecundario;
+            background-color: $colorCinco;
+        }
+        #resultado{
+            color: $colorsecundario;
+            background-color: $colorCinco;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .bordertop{
+            border-top: 1px solid $colorsecundario;
+            
+        }
     }
-    a{
-        color: $colorsecundario;
-    }
-    
 }

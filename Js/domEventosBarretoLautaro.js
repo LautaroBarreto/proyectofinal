@@ -24,4 +24,3 @@ mostrar.addEventListener('click', ()=>{
     }
     viewHTML(escalas[selectOptions.value], viewResult);
 });
-    
