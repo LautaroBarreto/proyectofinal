@@ -8,7 +8,7 @@ const getLocalStorge = (key) => JSON.parse(localStorage.getItem(key))
 const viewHTML = (array, lista) => {
     lista.innerHTML = '';
     array.forEach(escalas => {
-        let li = `<li> Las notas son: ${escalas.notas}. <br> El modo de esta escala es: ${escalas.modo} <br> Las alterciones son: ${escalas.alteracion}</li>`
+        let li = `<li>Escala de: ${escalas.name}. <br> Las notas son: ${escalas.notas}. <br> El modo de esta escala es: ${escalas.modo} <br> Las alterciones son: ${escalas.alteracion}</li>`
         lista.innerHTML += li;
     })
 }
