@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&family=Big+Shoulders+Inline+Display:wght@200&family=Poppins:wght@100&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="/index.html">Inicio</a>
+        </div>
+    </header>
+    <main>
+        <form action="">
+            <div class="flex">
+                <h1>Ingresar</h1>
+            </div>
+            <div class="flex">
+                <div class="container login">
+                    <div class="formLog">
+                        <input type="email" class="form-control" id="emailAdress" placeholder="nombre@mail.com">
+
+                        <label for="emailAdress" class="">Correo electrónico</label>
+                    </div>
+                    <div>
+                        <input type="password" class="form-control datos" id="password" placeholder="Contraseña">
+                        
+                        <label for="password" class="">Contraseña</label>
+                    </div>
+                    <div class="">
+                        <label>
+                            <input type="checkbox" id="rememberMe" value="remember-me" class="">Recordar mi sesión
+                        </label>
+                    </div>
+                    <div class="">
+                        <button class="btn iniciar" id="btnLogin" type="submit">Iniciar Sesión</button>
+
+                        <button class="w-100 btn btn-lg btnInfo borrar" id="btnCleanSessionStorage"
+                            type="submit">Olvidar mi sesión</button>
+
+                        <button class="w-100 btn btn-lg btnInfo borrar" id="btnCleanLocalStorage" type="submit">Borrar
+                            todos
+                            los
+                            datos</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </main>
+    <section class="footer bordertop" >
+        <footer>
+            <h4>
+                By: <a href="https://www.instagram.com/miyagi_sr" target="_blank">Lautaro Barreto</a>
+            </h4>
+        </footer>
+    </section>
+    <script src="/Js/login.js"></script>
+</body>
+</html>
