@@ -1,0 +1,51 @@
+[
+    {
+        "acorde": "Do",
+        "modo": "Mayor",
+        "grados": "1ro, 3ro, 5to",
+        "notas": "DO, MI, SOL"
+    },
+    {
+        "acorde": "SOL",
+        "modo": "Mayor",
+        "grados": "1ro, 3ro, 5to",
+        "notas": "SOL, SI, RE"
+    },
+    {
+        "acorde": "Re",
+        "modo": "Mayor",
+        "grados": "1ro, 3ro, 5to",
+        "notas": "RE, FA#, LA"
+    },
+    {
+        "acorde": "La",
+        "modo": "Mayor",
+        "grados": "1ro, 3ro, 5to",
+        "notas": "LA, DO#, MI"
+    },
+    {
+        "acorde": "Mi",
+        "modo": "Mayor",
+        "grados": "1ro, 3ro, 5to",
+        "notas": "MI, SOL#, SI"
+    },
+    {
+        "acorde": "Si",
+        "modo": "Mayor",
+        "grados": "1ro, 3ro, 5to",
+        "notas": "SI, RE#, FA#"
+    },
+    {
+        "acorde": "FA#",
+        "modo": "Mayor",
+        "grados": "1ro, 3ro, 5to",
+        "notas": "FA#, LA#, DO#"
+    },
+    {
+        "acorde": "Do#",
+        "modo": "Mayor",
+        "grados": "1ro, 3ro, 5to",
+        "notas": "DO#, MI#, SOL#"
+    }
+
+]

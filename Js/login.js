@@ -1,6 +1,6 @@
 let recordar = document.getElementById('rememberMe');
-let bntLogin = document.getElementById('btnLogin');
-let btnCleanLocalStorage = document.getElementById('bntCleanLocalStorage');
+let btnLogin = document.getElementById('btnLogin');
+let btnCleanLocalStorage = document.getElementById('btnCleanLocalStorage');
 let btnCleanSessionStorage = document.getElementById('btnCleanSessionStorage');
 
 function getData(storage) {
@@ -11,16 +11,18 @@ function getData(storage) {
         'user': user,
         'pass': pass,
     }
-    storage === 'sessionStorage'&& sessionStorage.setItem('user', JSON.stringify(usuario));
+    sessionStorage === 'sessionStorage' && sessionStorage.setItem('user', JSON.stringify(usuario));
 
-    storage === 'localStorage'&& localStorage.setItem('user', JSON.stringify(usuario));
+    localStorage === 'localStorage' && localStorage.setItem('user', JSON.stringify(usuario));
+    console.log(usuario)
+    window.location.href = 'http://127.0.0.1:5500/index.html';
 }
 
 function cleanData(storage) {
     storage.clear()
 }
 
-bntLogin.addEventListener('click', () => {
+btnLogin.addEventListener('click', () => {
     if (recordar.checked) {
         getData('localStorage');
     } else {
